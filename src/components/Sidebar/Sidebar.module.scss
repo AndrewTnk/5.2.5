@@ -1,0 +1,74 @@
+.sidebar {
+  width: 100%;
+  max-width: 320px;
+}
+
+.filterCard {
+  background-color: white;
+  border: 1px solid #e9ecef;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600 !important;
+  margin-bottom: 10px !important;
+}
+
+.skillInput {
+  flex: 1;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skillBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #f6f6f7;
+}
+
+.pillContent {
+  display: inline-flex;
+  align-items: center;
+  line-height: 20px;
+}
+
+.pillRemove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  align-self: center;
+  margin-left: 2px;
+  opacity: 0.7;
+  transition: opacity 120ms ease;
+}
+
+.skillBadge:hover .pillRemove {
+  opacity: 1;
+}
+
+.skillBadge:hover {
+  background-color: #f6f6f7;
+}
+
+.removeIcon {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.citySelect {
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+.searchHeader {
+  background-color: #f6f6f7;
+  border-bottom: 1px solid #e9ecef;
+  height: 114px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.title {
+  width: 366px;
+  height: 66px;
+}
+
+.mainTitle {
+  color: #0f0f10;
+  font-size: 26px !important;
+  font-weight: 700;
+}
+
+.lowTitle {
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+.searchInput {
+  width: 403px;
+}
